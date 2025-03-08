@@ -2,7 +2,7 @@ package Array;
 
 import java.util.HashMap;
 
-public class CountFrequency {
+public class CountFrequency { 
 
     public static void cntFrequency(int arr[]){
         HashMap<Integer,Integer> hm  = new HashMap<>();
