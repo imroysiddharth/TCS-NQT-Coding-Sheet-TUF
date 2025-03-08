@@ -1,3 +1,4 @@
+package Array;
 public class Find_the_smallest_number_in_array{
     public static int findSmallest(int[] arr){
 
