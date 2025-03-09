@@ -5,7 +5,6 @@ public class Adding_Element_in_Array {
         int arr[]={1,2,3,4,5,6,7,8,10};
         System.out.println(sumElements(arr));
     }
-
     public static int sumElements(int arr[]){
         int sum= 0 ;
 
