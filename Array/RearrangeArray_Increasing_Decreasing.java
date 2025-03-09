@@ -13,6 +13,7 @@ public class RearrangeArray_Increasing_Decreasing {
             j--;
         }
     }
+    
 
     public static void merge(int arr[], int si, int mid, int li) {
         ArrayList<Integer> temp = new ArrayList<>();
