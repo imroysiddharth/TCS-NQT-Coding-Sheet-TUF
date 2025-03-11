@@ -10,7 +10,7 @@ public class TcsArrayInput{
         ArrayList<Integer> al = new ArrayList<>() ;
         for(int i= 0 ; i<str.length() ; i++){
             
-            // int n = str.charAt(i);
+            // int n = str.charAt(i); 
             // if(n>47 && n<58){
             //     System.out.print(n+" ");
             //     al.add(n-48);
