@@ -3,23 +3,23 @@ package Array;
 public class Equilibrium_index_in_an_array {
     public static int EquilibriumIndex(int[] arr){
         int i = 0;
-        int totalS = 0; 
-        int localS=0;
+        int totalSum = 0; 
+        int localSum=0;
         for(int ele:arr){
-            totalS+=ele;
+            totalSum+=ele;
         } 
         while (i<arr.length) {         
-            double s = totalS - Math.max(arr[i], -1*arr[i]);
+            double s = totalSum - Math.max(arr[i], -1*arr[i]);
             if(i!=0){
-                localS += arr[i-1];
+                localSum += arr[i-1];
             }
-            System.out.println(localS+" "+s/2);
-            if(localS == s/2){
+            System.out.println(localSum+" "+s/2);
+            if(localSum == s/2){
                 return i ;
             }
             i++;
         }
-        return 99 ;
+        return -1 ;
     }
     public static void main(String args[]){
         int arr[]={2,3,-1,8,4};
