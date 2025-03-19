@@ -13,7 +13,7 @@ public class Capitalize_Character {
                 sb.setCharAt(i, (char)(sb.charAt(i)-32));
             }
             if( i==sb.length()-1 || i!=0 && sb.charAt(i+1)==' '){
-                if(sb.charAt(i)>=96 && sb.charAt(i)<=122)
+                if(sb.charAt(i)>=97 && sb.charAt(i)<=122)
                 sb.setCharAt(i, (char)(sb.charAt(i)-32));
             }
         }
