@@ -3,12 +3,14 @@ package Strings;
 public class Capitalize_Character {
     public static void main(String[] args) {
         // String s =" siddharth roy";
-        String s ="take u forward is awesome";
-        System.out.println(capitalizeChars(s));
+        // String s ="take u forward is awesome";
+        String s2="Golu Kumar";
+        System.out.println(capitalizeChars(s2));
     }
     public static String capitalizeChars(String s){
         StringBuilder sb = new StringBuilder(s);
         for(int i=0; i<s.length() ;i++){
+            if(sb.charAt(i)>=65 && sb.charAt(i)<=90)continue;
             if(i==0 && sb.charAt(i)!=' '  || i!=0 && sb.charAt(i-1)==' '){
                 sb.setCharAt(i, (char)(sb.charAt(i)-32));
             }
