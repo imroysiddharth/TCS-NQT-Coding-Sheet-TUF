@@ -4,7 +4,7 @@ public class Capitalize_Character {
     public static void main(String[] args) {
         // String s =" siddharth roy";
         // String s ="take u forward is awesome";
-        String s2="Golu Kumar";
+        String s2="Sidd Kumar";
         System.out.println(capitalizeChars(s2));
     }
     public static String capitalizeChars(String s){
