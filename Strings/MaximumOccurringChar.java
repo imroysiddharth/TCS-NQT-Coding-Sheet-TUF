@@ -1,5 +1,5 @@
 package Strings;
-
+//cosidering no white spaces are available
 public class MaximumOccurringChar {
     public static char cntMaxOccuringChar(String s){
         int freq[] = new int[26];
