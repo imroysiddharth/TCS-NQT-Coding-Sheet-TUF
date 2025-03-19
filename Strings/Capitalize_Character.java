@@ -12,6 +12,10 @@ public class Capitalize_Character {
             if(i==0 && sb.charAt(i)!=' '  || i!=0 && sb.charAt(i-1)==' '){
                 sb.setCharAt(i, (char)(sb.charAt(i)-32));
             }
+            if( i==sb.length()-1 || i!=0 && sb.charAt(i+1)==' '){
+                if(sb.charAt(i)>=96 && sb.charAt(i)<=122)
+                sb.setCharAt(i, (char)(sb.charAt(i)-32));
+            }
         }
         return sb.toString();
     }
